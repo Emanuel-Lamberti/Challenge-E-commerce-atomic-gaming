@@ -6,7 +6,7 @@
 
 # Demo
 
-[Puedes ver el proyecto aquí 🚀](https://taupe-dodol-54fe4c.netlify.app)
+[Puedes ver el proyecto aquí 🚀](https://emanuel-lamberti.github.io/Challenge-E-commerce-atomic-gaming/)
 
 ---
 
@@ -17,8 +17,11 @@ El menú principal nos muestra un catálogo de productos filtrados por categorí
 ## Seccion Usuario
 
 Puedes loguearte al sistema con las credenciales:
-Usuario: Josef
-Password: alura123
+
+<ul>
+    <li>Usuario: Josef</li>
+    <li>Password: alura123</li>
+</ul>
 Una vez ingresado al sistema de administración puedes visualizar en la parte del header el nombre del usuario, donde tienes la opción de cerrar sesión y volver al menú principal de todos los productos.
 
 ## Buscar Producto
@@ -54,7 +57,7 @@ Clona este repositorio en tu maquina local usando el comando "git clone".
 
 ```
     # Clone the repository
-    $ git clone https://github.com/jeinszz01/e-commerce-games.git
+    $ git clone https://github.com/Emanuel-Lamberti/Challenge-E-commerce-atomic-gaming.git
     # Move into the repository
     $ cd Ecommerce_Games.git
 ```

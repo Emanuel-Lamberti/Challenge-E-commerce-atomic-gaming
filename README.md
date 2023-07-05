@@ -6,7 +6,6 @@
 
 # Demo
 
-A través de este link podrás tener acceso a la demo en github Pages del e-commers.
 [Puedes ver el proyecto aquí 🚀](https://emanuel-lamberti.github.io/Challenge-E-commerce-atomic-gaming/)
 
 ---

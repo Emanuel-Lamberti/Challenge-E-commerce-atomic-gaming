@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atomic Gaming - Home</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/base/reset.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/banner.css">
@@ -17,7 +17,7 @@
     <header>
         <div class="header-principal">
             <div class="logo-header">
-                <a href="/index.html">
+                <a href="./index.html">
                     <img src="./assets/img/logo.png" alt="logo" />
                     <h1>Atomic<span> Gaming</span></h1>
                 </a>
@@ -31,7 +31,7 @@
             
             <div class="boton-login-usuario">
                 <button class="data-login" data-login>
-                    <a href="/pages/login.html"><img src="./assets/img/user.svg" alt="boton-login"></a>
+                    <a href="./pages/login.html"><img src="./assets/img/user.svg" alt="boton-login"></a>
                 </button>
             </div>
         </div>
@@ -41,12 +41,12 @@
         <div class="banner-principal">
             <div class="categorias">
                     <ul>
-                        <li><a href="#">Productos en Tendencia</a></li>
-                        <li><a href="#">Aventura y Acción</a></li>
-                        <li><a href="#">Terror</a></li>
-                        <li><a href="#">Estrategia</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Plataformas</a></li>
+                        <li><a href="#tendencia">Productos en Tendencia</a></li>
+                        <li><a href="#aventura">Aventura y Acción</a></li>
+                        <li><a href="#terror">Terror</a></li>
+                        <li><a href="#estrategia">Estrategia</a></li>
+                        <li><a href="#plataformas">Plataformas</a></li>
+                        <li><a href="#">Contactos</a></li>
                     </ul>
             </div>
             <div class="juegos">
@@ -57,11 +57,10 @@
 
     <section class="section-productos">
         <div class="productos">
-            
             <div class="producto">
                 <div class="producto-header">
                     <div class="producto-titulos">
-                        <h2>Productos en tendencia</h2>
+                        <h2 id="tendencia">Productos en tendencia</h2>
                         <a href="#">Ver Todo --></a>
                     </div>
                     <p>Los mejores videojuegos y productos digitales del momento a precios de otro planeta. Ofertas top, últimos estrenos, títulos AAA.</p>
@@ -72,11 +71,10 @@
                     </div>
                 </div>
             </div>
-
             <div class="producto">
                 <div class="producto-header">
                     <div class="producto-titulos">
-                        <h2>Aventura y Acción</h2>
+                        <h2 id="aventura">Aventura y Acción</h2>
                         <a href="#">Ver Todo --></a>
                     </div>
                     <p>Los mejores videojuegos de aventura, con miles de lugares a donde ir. Ofertas top, últimos estrenos, títulos reconocidos.</p>
@@ -87,11 +85,10 @@
                     </div>
                 </div>
             </div>
-
             <div class="producto">
                 <div class="producto-header">
                     <div class="producto-titulos">
-                        <h2>Terror</h2>
+                        <h2 id="terror">Terror</h2>
                         <a href="#">Ver Todo --></a>
                     </div>
                     <p>Los mejores videojuegos de aventura, con miles de lugares a donde ir. Ofertas top, últimos estrenos, títulos reconocidos.</p>
@@ -102,11 +99,10 @@
                     </div>
                 </div>
             </div>
-
             <div class="producto">
                 <div class="producto-header">
                     <div class="producto-titulos">
-                        <h2>Estrategia Games</h2>
+                        <h2 id="estrategia">Estrategia Games</h2>
                         <a href="#">Ver Todo --></a>
                     </div>
                     <p>Los juegos de estrategia son una manera de entretenimiento en donde se ponen a prueba diferentes habilidades de planificación, 
@@ -119,12 +115,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
-    <section class="section-plataformas">
+    <section class="section-plataformas" id="plataformas">
         <div class="plataformas-contenido">
             <div class="plataformas-titulo">
                 <h2>Top Plataformas</h2>
@@ -197,8 +191,7 @@
             </div>
             <div class="copy-footer">
                 <span>&#169;2023 - Desarrollado por Emanuel Adrian Lamberti.</span>
-                <span>Todas las marcas comerciales a las que se hace referencia son propiedad de sus respectivos dueños.</span>
-                
+                <span>Todas las marcas comerciales a las que se hace referencia son propiedad de sus respectivos dueños.</span> 
             </div>
             <div class="privacidad-footer">
                 <ul>
@@ -212,7 +205,7 @@
         </div>
     </footer>
 
-    <script type="module" src="/controllers/usuario-index-controller.js"></script>
-    <script type="module" src="/controllers/index-controller.js"></script>
+    <script type="module" src="./controllers/usuario-index-controller.js"></script>
+    <script type="module" src="./controllers/index-controller.js"></script>
 </body>
 </html>

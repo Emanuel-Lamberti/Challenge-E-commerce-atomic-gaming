@@ -1,4 +1,4 @@
-# E-commers
+# Challenge E-commers: Atomic Gaming
 
 ![imagen-demo](./assets/img/demo1.png)
 ![imagen-demo](./assets/img/demo2.png)
@@ -6,6 +6,7 @@
 
 # Demo
 
+A través de este link podrás tener acceso a la demo en github Pages del e-commers.
 [Puedes ver el proyecto aquí 🚀](https://emanuel-lamberti.github.io/Challenge-E-commerce-atomic-gaming/)
 
 ---
